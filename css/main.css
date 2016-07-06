@@ -1,0 +1,65 @@
+
+#title {
+	height: 15rem;
+	width: 56rem;
+	margin: 0 auto;
+
+}
+
+#title h2 {
+	text-align: right;
+}
+
+#main {
+	background-image: url('../images/friends-front.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	height: 60rem;
+	width: 130rem;
+	margin: 0 auto;
+}
+
+#title,
+#intro,
+.answers,
+.end,
+#outro {
+	text-align: center;
+}
+
+#quizCount {
+	padding-top: 5rem;
+	padding-left: 5rem;
+}
+
+#qstn1,
+#qstn2,
+#qstn3,
+#qstn4,
+#qstn5,
+#qstn6,
+#qstn7,
+#qstn8,
+#qstn9,
+#qstn10,
+.answers,
+.end {
+	height: 30rem;
+	width: 80rem;
+	margin: 0 auto;
+}
+
+#qstn1 h3 {
+	height: 30rem;
+	width: 90rem;
+}
+
+/*#quiz,
+.questions,*/
+
+#quiz,
+.end,
+#outro {
+	display: none;
+}
