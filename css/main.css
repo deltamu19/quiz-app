@@ -19,18 +19,14 @@ body {
 	background-image: url("../images/friends-back.jpg");
 	background-size: cover;
 }
-
-.friends-centralperk,
-.friends-back,
-/*.quiz,
-.quizCount,
-.end,*/
-.questions,
+/* Hidden DIV */
 .answers,
+.end,
 .outro {
 	display: none;
 }
 
+/* Main section */
 .main,
 .quiz,
 .end {
