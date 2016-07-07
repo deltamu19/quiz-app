@@ -10,64 +10,57 @@
 </head>
 <body>
 	<!-- Title -->
-	<div id="title">
-		<header><img src="images/friends-logo.png"></header>
+	<header class="title">
+		<img src="images/friends-logo.png">		
 		<h2>Quiz</h2>
-	</div>
-	<!-- Contents inside the background image -->
-	<div id="main">
+	</header>	
+	<!-- Main DIV -->
+	<div class="main">
 		<!-- Quiz itself - questions, answers, and explanations. -->
-		<div id="quiz">
-			<div id="quizCount">
-				<h3><span>1</span> of 10</h3>
+		<div class="quiz">
+			<!-- Counter -->
+			<div class="quizCount">
+				<h3><span></span> of 10</h3>
 			</div>
 			<!-- Questions -->
 			<div class="questions">
-				<div id="qstn1">
-					<h3 id="questionName"></h3>
-					<div class="options row">
-						<div class="qstn1-optn1 col-md-4">
-							<input type="radio" name="option1" value="0"><label id="answerOptions0"></label>
-						</div>
-						<div class="qstn1-optn1 col-md-4">
-							<input type="radio" name="option1" value="1"><label id="answerOptions1"></label>
-						</div>
-						<div class="qstn1-optn1 col-md-4">
-							<input type="radio" name="option1" value="2"><label id="answerOptions2"></label>
-						</div>
+				<h3 class="questionName"></h3>
+				<div class="options row">
+					<div class="optn1 col-md-4">
+						<input type="radio" name="option" value="0" class="answerOption0"><label for="answerOption0"></label>
 					</div>
-					<button class="submit">Submit</button>	
+					<div class="optn2 col-md-4">
+						<input type="radio" name="option" value="1" class="answerOption1">
+						<label for="answerOption1"></label>
+					</div>
+					<div class="optn3 col-md-4">
+						<input type="radio" name="option" value="2" class="answerOption2"><label for="answerOption2"></label>
+					</div>
 				</div>
+				<button class="submit">Submit</button>	
 			</div>
-
 			<!-- Explanation for correct answer -->
 			<div class="answers">
-				<div class="outcome">
-					<h3 class="result"></h3>
-				</div>
-				<div class="explain">
-					<div class="qstn1-exp">
-						<h4 class="explaination"></h4>
-					</div>
-				</div>
+				<h3 class="result"></h3>
+				<h4 class="explanation"></h4>
 				<button class="nextQuestion">Next Question</button>
+			</div		
+			<!-- Shows total score -->
+			<div class="end">
+				<h1>You got <span class="total"></span> out of 10 right!</h1>
 			</div>
-		</div>
-
-		<div class="end">
-			<h2>You got <span class="total">10</span> out of 10 right!</h2>
-		</div>
+		</div>	
 	</div>
 
 	<!-- Intro -->
-	<div id="intro">
+	<div class="intro">
 		<h4>Take the challenge!</h4>
 		<h4>Test your knowledge of this 90's hit sitcom!</h4>
 		<button class="start">Click Here to Start</button>
 	</div>
 
 	<!-- Outro -->
-	<div id="outro">
+	<div class="outro">
 		<h4>Thanks for playing!</h4>
 		<h4>Have your friends take the challenge!</h4>
 		<button class="start">Click Here to Play Again</button>
@@ -76,6 +69,5 @@
 	<!-- Scripts -->
 	<script src="http://code.jquery.com/jquery.min.js"></script>
 	<script src="js/app.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 </body>
 </html>
