@@ -20,6 +20,8 @@ body {
 	background-size: cover;
 }
 /* Hidden DIV */
+.quizCount,
+.questions,
 .answers,
 .end,
 .outro {

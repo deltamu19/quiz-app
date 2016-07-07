@@ -23,12 +23,12 @@ $(document).ready(function() {
 
 var startQuiz = function() {
 	var question = questions[0];
-	$('#quizCount').show();
+	$('3quizCount').show();
 	$('.questions').show();
-	$('#questionName').text(question.name);
-	$('#answerOptions0').text(question.answers[0]);
-	$('#answerOptions1').text(question.answers[1]);
-	$('#answerOptions2').text(question.answers[2]);
+	$('.questionName').text(question.name);
+	$('.answerOptions0').text(question.answers[0]);
+	$('.answerOptions1').text(question.answers[1]);
+	$('.answerOptions2').text(question.answers[2]);
 }
 
 var nextQuestion = function() {
