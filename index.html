@@ -20,21 +20,21 @@
 		<div class="quiz">
 			<!-- Counter -->
 			<div class="quizCount">
-				<h3><span></span> of 10</h3>
+				<h3><span class="count"></span> of 10</h3>
 			</div>
 			<!-- Questions -->
 			<div class="questions">
 				<h3 class="questionName"></h3>
 				<div class="options row">
 					<div class="optn1 col-md-4">
-						<input type="radio" name="option" value="0" class="answerOption0"><label for="answerOption0"></label>
+						<input type="radio" name="option" value="0" class="answerOption0"><span class="answerOptions0"></span>
 					</div>
 					<div class="optn2 col-md-4">
-						<input type="radio" name="option" value="1" class="answerOption1">
-						<label for="answerOption1"></label>
+						<input type="radio" name="option" value="1" class="answerOption1"><span class="answerOptions1"></span>
+						
 					</div>
 					<div class="optn3 col-md-4">
-						<input type="radio" name="option" value="2" class="answerOption2"><label for="answerOption2"></label>
+						<input type="radio" name="option" value="2" class="answerOption2"><span class="answerOptions2"></span>
 					</div>
 				</div>
 				<button class="submit">Submit</button>	
@@ -47,7 +47,9 @@
 			</div		
 			<!-- Shows total score -->
 			<div class="end">
-				<h1>You got <span class="total"></span> out of 10 right!</h1>
+				<div class="endWrap">
+					<h1>You got <span class="total"></span> out of 10 right!</h1>
+				</div>
 			</div>
 		</div>	
 	</div>

@@ -1,6 +1,7 @@
 body {
 	text-align: center;
-	color: black
+	color: black;
+	font-weight: 900 !important;
 }
 
 /* Title */
@@ -16,7 +17,7 @@ body {
 
 /* Background images */
 .main {
-	background-image: url("../images/friends-back.jpg");
+	background-image: url("../images/friends-front.jpg");
 	background-size: cover;
 }
 /* Hidden DIV */
@@ -54,7 +55,7 @@ body {
 .questions,
 .answers {
 	background-color: white;
-	opacity: 0.6;
+	opacity: 0.85;
 	border-radius: 1%;
 	height: 40rem;
 	width: 70rem;
@@ -62,11 +63,13 @@ body {
 
 }
 
-.questionName, {
+.questionName {
 	height: 25rem;
 	width: 70rem;
 	padding: 3rem;
 	text-align: left;
+	font-weight: 900;
+
 }
 
 .result {
@@ -95,6 +98,14 @@ body {
 	margin-top: 15rem;
 }
 
-.end h1 {
+.endWrap h1 {
 	font-size: 5rem;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.endWrap {
+	display: table;
+	height: 100%;
+	width: 100%;
 }
