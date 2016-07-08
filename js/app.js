@@ -40,9 +40,11 @@ var startQuiz = function() {
 	var question = questions[currentQuestion];
 	$('.main').css('background-image', 'url(images/friends-centralperk.jpg)');
 	$('.intro').hide();
+	$('.outro').hide();
 	$('.quizCount').show();
 	$('.questions').show();
 	showQuestion(question);
+	$(".options input[type='radio']").attr('checked', false);
 }
 
 
@@ -52,6 +54,7 @@ var nextQuestion = function() {
 	var question = questions[currentQuestion];
 	$('.questions').show();
 	$('.answers').hide();
+	$('.outro').hide();
 	showQuestion(question);
 	$(".options input[type='radio']").attr('checked', false);
 }

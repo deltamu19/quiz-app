@@ -1,7 +1,11 @@
 body {
 	text-align: center;
 	color: black;
-	font-weight: 900 !important;
+	font-weight: 900;
+}
+
+button {
+	font-size: 1.7rem !important;
 }
 
 /* Title */
@@ -60,16 +64,23 @@ body {
 	height: 40rem;
 	width: 70rem;
 	margin: 0 auto;
-
 }
 
 .questionName {
-	height: 25rem;
+	height: 20rem;
 	width: 70rem;
 	padding: 3rem;
 	text-align: left;
-	font-weight: 900;
+}
 
+.questionName,
+.result,
+.explanation {
+	font-weight: 900;
+}
+
+.options {
+	height: 6rem;
 }
 
 .result {
@@ -89,7 +100,7 @@ body {
 
 .submit,
 .nextQuestion {
-	margin-top: 7rem;
+	margin-top: 6rem;
 	margin-right: 2rem;
 	float: right;
 }
